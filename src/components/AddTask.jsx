@@ -12,7 +12,7 @@ const AddTask = ({ onAddClick }) => {
           type="text"
           value={title}
           onChange={(event) => {
-            setDescription(event.target.value);
+            setTitle(event.target.value);
           }}
           placeholder="Nome da tarefa"
         />
