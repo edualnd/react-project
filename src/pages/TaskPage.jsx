@@ -11,7 +11,7 @@ const TaskPage = () => {
   return (
     <>
       <div className="">
-        <div className="space-y-4 w-[600px]">
+        <div className="space-y-4 w-[300px] sm:w-[500px]">
             <div className="flex justify-center relative mb-6">
               <button onClick={() => navigate(-1)} className="text-slate-200 absolute top-0 left-0 bottom-0">
                 <ChevronLeftIcon />
