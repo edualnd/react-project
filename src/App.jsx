@@ -50,7 +50,7 @@ function App() {
   return (
     <>
       <div className="">
-        <div className="w-[500px] space-y-4">
+        <div className="w-screen space-y-4 flex flex-col items-center">
           <Title>
             Gerenciador de tarefas
           </Title>

@@ -12,7 +12,7 @@ const Tasks = ({ tasks, onTaskClick, onDeleteTaskClick }) => {
   };
   return (
     <>
-      <ul className="space-y-2 p-6 bg-slate-200 rounded-md shadow">
+      <ul className=" sm:w-[500px] w-[300px] space-y-2 p-6 bg-slate-200 rounded-md shadow">
         {tasks.length === 0 ? (
           <li>Você não tem tarefas</li>
         ) : (
